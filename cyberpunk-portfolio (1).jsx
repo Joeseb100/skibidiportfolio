@@ -34,7 +34,7 @@ const CyberpunkPortfolio = () => {
       id: 3,
       title: "Mistral Chatbot",
       description: "Fine-tuned LLM for contextual therapy sessions",
-      tech: ["PyTorch", "HuggingFace", "RLHF"],
+      tech: ["PyTorch", "HuggingFace"],
       icon: "🤖"
     }
   ];
@@ -107,11 +107,11 @@ const CyberpunkPortfolio = () => {
                     A researcher at heart. A storyteller by craft. An engineer in progress.
                   </p>
                   <p className="mb-4 leading-relaxed">
-                    From St. Antony's corridors to Amal Jyothi's labs, I chase the 'why' behind the 'how'. 
+                    I chase the 'why' behind the 'how'. 
                     Whether decoding AI patterns or geopolitics, my mind thrives where logic meets legacy.
                   </p>
                   <p className={`${colors.accent} italic`}>
-                    Fun fact: I once rode my dad's Bullet to a quiz competition—and won state-level gold. 🛵💥
+                    Fun fact: I once skipped my midterms to attend a quiz competition—and won state-level silver. 🛵💥
                   </p>
                 </div>
                 <div className={`border-2 border-cyan-400 p-4 ${colors.terminal}`}>
@@ -167,7 +167,7 @@ const CyberpunkPortfolio = () => {
                   </ul>
                 </div>
                 <div className={`border-2 border-pink-500 p-4 ${colors.terminal}`}>
-                  <h3 className={`text-xl ${colors.secondary} mb-3`}>AI/ML</h3>
+                  <h3 className={`text-xl ${colors.secondary} mb-3`}>AI/ML(Understanding):</h3>
                   <ul className="space-y-2">
                     <li>Deep Learning</li>
                     <li>NLP</li>
@@ -226,12 +226,12 @@ const CyberpunkPortfolio = () => {
             </div>
             <div className="text-right">
               <p>LinkedIn: /in/jophitsebastian</p>
-              <p>GitHub: @jophit-dev</p>
+              <p>GitHub: @joeseb100</p>
             </div>
           </div>
           <div className="mt-4 text-center text-xs">
             <p className={`${colors.secondary}`}>SYSTEM STATUS: ONLINE</p>
-            <p>© 2024 JOPHIT SEBASTIAN | ALL SYSTEMS NOMINAL</p>
+            <p>© 2050 JOPHIT SEBASTIAN | ALL SYSTEMS NOMINAL</p>
           </div>
         </footer>
       </div>
