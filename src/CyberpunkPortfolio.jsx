@@ -61,6 +61,7 @@ const CyberpunkPortfolio = () => {
             className={`text-4xl md:text-6xl font-bold mb-2 ${colors.primary} glitch`}
             data-text="JOPHIT_SEBASTIAN"
           >
+<<<<<<< HEAD
             JOPHIT_SEBASTIAN
           </motion.h1>
           <p className={`text-lg ${colors.secondary} mb-4`}>
@@ -70,6 +71,16 @@ const CyberpunkPortfolio = () => {
             <span>💾 Digital Architect</span>
             <span>🧠 AI Explorer</span>
             <span>🎙️ Storyteller</span>
+=======
+            JOPHIT SEBASTIAN
+          </motion.h1>
+          <p className={`text-lg ${colors.secondary} mb-4`}>
+            <span className="blink">_</span> ECE Undergrad | AI/ML, Content, and Tech Storyteller
+          </p>
+          <div className="flex gap-4 text-sm">
+            <span>📧 jophits@gmail.com</span>
+            <span>LinkedIn: <a href="https://www.linkedin.com/in/jophitsebastian/" target="_blank" rel="noopener noreferrer" className="underline">/in/jophitsebastian</a></span>
+>>>>>>> master
           </div>
         </header>
 
@@ -104,6 +115,7 @@ const CyberpunkPortfolio = () => {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <p className="mb-4 leading-relaxed">
+<<<<<<< HEAD
                     A researcher at heart. A storyteller by craft. An engineer in progress.
                   </p>
                   <p className="mb-4 leading-relaxed">
@@ -120,6 +132,27 @@ const CyberpunkPortfolio = () => {
                     <li>Mistral-tuned therapy bots</li>
                     <li>Human-AI symbiosis</li>
                     <li>Geopolitics of technology</li>
+=======
+                    An ECE undergrad with a storyteller's mind and a deep curiosity for AI/ML, content, and tech. Former state-level quizzer with a strong grasp of general knowledge, geopolitics, and history. I thrive at the intersection of innovation and human experience—where engineering meets empathy. Currently seeking an AI/ML internship to explore real-world applications that fuse technical insights with human-centric design.
+                  </p>
+                  <div className="mb-4">
+                    <h3 className={`text-xl ${colors.secondary}`}>EDUCATION</h3>
+                    <ul className="list-disc pl-5">
+                      <li><b>B.Tech</b> in Electronics & Communication Engineering (Honours & Minor in ML), Amal Jyothi College of Engineering, Kerala (2023–Present), CGPA: 9.02</li>
+                      <li><b>KG – Class 12</b>, St. Antony's Public School, Anakkal (2023)</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className={`border-2 border-cyan-400 p-4 ${colors.terminal}`}>
+                  <h3 className={`text-xl ${colors.secondary} mb-2`}>TECHNICAL SKILLS</h3>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Hardware & Embedded Systems: Arduino, ESP32</li>
+                    <li>Programming: Python, C, Embedded C</li>
+                    <li>AI & ML: Deep Learning, NLP, Computer Vision, Neural Networks</li>
+                    <li>Writing & Communication: Technical Writing, Content Creation, Public Speaking</li>
+                    <li>Tools & Platforms: VSCode, Jupyter, Git, Google Colab, Obsidian, Canva</li>
+                    <li>Soft Skills: Leadership, Event Management, Team Collaboration, Research & Analysis</li>
+>>>>>>> master
                   </ul>
                 </div>
               </div>
@@ -130,6 +163,7 @@ const CyberpunkPortfolio = () => {
             <section>
               <h2 className={`text-2xl ${colors.primary} mb-6`}>// PROJECT_ARCHIVE</h2>
               <div className="grid md:grid-cols-2 gap-6">
+<<<<<<< HEAD
                 {projects.map((project) => (
                   <motion.div
                     key={project.id}
@@ -150,6 +184,24 @@ const CyberpunkPortfolio = () => {
                     </div>
                   </motion.div>
                 ))}
+=======
+                <div className={`border-2 border-purple-400 p-4 ${colors.terminal} mb-4`}>
+                  <h3 className={`text-xl ${colors.accent}`}>AlgaeNet</h3>
+                  <p>Developed a CNN model from scratch to detect algae presence in aquaculture ponds, aiding real-time monitoring for fish cultivators. (Advanced Labs Pvt Ltd, Intern)</p>
+                </div>
+                <div className={`border-2 border-purple-400 p-4 ${colors.terminal} mb-4`}>
+                  <h3 className={`text-xl ${colors.accent}`}>AquaPulse</h3>
+                  <p>IoT-based Fish Pond Biomodal Condition Management (AIC PEACE). Built hardware and AI for real-time monitoring and logging of pond data. Designed efficient dashboards, integrated Firebase for real-time results handling, and WhatsApp-based notifications.</p>
+                </div>
+                <div className={`border-2 border-purple-400 p-4 ${colors.terminal} mb-4`}>
+                  <h3 className={`text-xl ${colors.accent}`}>Neurasync</h3>
+                  <p>AI-driven platform for stress insights. Designed dashboards and biological data models (heart rate, SpO2, blood oxygen, HRV). Developed a modular real-time wearable HR dashboard. (DeepSpaceAI 4.0)</p>
+                </div>
+                <div className={`border-2 border-purple-400 p-4 ${colors.terminal} mb-4`}>
+                  <h3 className={`text-xl ${colors.accent}`}>ResQNet</h3>
+                  <p>GPS-free mesh rescue network for real-time tracking in GPS-denied environments (mines, caves, disaster zones). Integrated LoRa mesh with prediction models (Kalman Filtering) to enhance accuracy and reliability.</p>
+                </div>
+>>>>>>> master
               </div>
             </section>
           )}
@@ -159,6 +211,7 @@ const CyberpunkPortfolio = () => {
               <h2 className={`text-2xl ${colors.primary} mb-6`}>// SKILL_MATRIX</h2>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className={`border-2 border-green-400 p-4 ${colors.terminal}`}>
+<<<<<<< HEAD
                   <h3 className={`text-xl ${colors.secondary} mb-3`}>HARDWARE</h3>
                   <ul className="space-y-2">
                     <li>Arduino</li>
@@ -185,6 +238,40 @@ const CyberpunkPortfolio = () => {
                   </ul>
                 </div>
               </div>
+=======
+                  <h3 className={`text-xl ${colors.secondary} mb-3`}>TECHNICAL</h3>
+                  <ul className="space-y-2">
+                    <li>Arduino, ESP32, Embedded Systems</li>
+                    <li>Python, C, Embedded C</li>
+                    <li>Deep Learning, NLP, Computer Vision, Neural Networks</li>
+                  </ul>
+                </div>
+                <div className={`border-2 border-pink-500 p-4 ${colors.terminal}`}>
+                  <h3 className={`text-xl ${colors.secondary} mb-3`}>TOOLS & PLATFORMS</h3>
+                  <ul className="space-y-2">
+                    <li>VSCode, Jupyter, Git, Google Colab, Obsidian, Canva</li>
+                  </ul>
+                </div>
+                <div className={`border-2 border-cyan-400 p-4 ${colors.terminal}`}>
+                  <h3 className={`text-xl ${colors.secondary} mb-3`}>SOFT SKILLS</h3>
+                  <ul className="space-y-2">
+                    <li>Technical Writing, Content Creation, Public Speaking</li>
+                    <li>Leadership, Event Management, Team Collaboration, Research & Analysis</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-8">
+                <h3 className={`text-xl ${colors.secondary} mb-3`}>LEADERSHIP EXPERIENCE</h3>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li><b>Advanced Labs Pvt Ltd, Intern:</b> Built CNN model for algae detection in aquaculture ponds.</li>
+                  <li><b>Second Prize (2024, National Analytical Trophy):</b> State-level runner-up, national-level innovation challenge.</li>
+                  <li><b>Usage of Kerala children author outreach programs:</b> Promoted STEM, mentored teams, and led workshops.</li>
+                  <li><b>Indian Space Research Org. (ISRO):</b> Invited as media story developer for events.</li>
+                  <li><b>Inauguration Presenter (2024):</b> Presented and coordinated at T4U innovation program at AICPE.</li>
+                  <li><b>State & National Quiz Competitor:</b> Won various state-level quiz competitions.</li>
+                </ul>
+              </div>
+>>>>>>> master
             </section>
           )}
 
@@ -227,13 +314,21 @@ const CyberpunkPortfolio = () => {
               <p>📧 jophits@gmail.com</p>
             </div>
             <div className="text-right">
+<<<<<<< HEAD
               <p>LinkedIn: /in/jophitsebastian</p>
               <p>GitHub: @joeseb100</p>
+=======
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/jophitsebastian/" target="_blank" rel="noopener noreferrer" className="underline">/in/jophitsebastian</a></p>
+>>>>>>> master
             </div>
           </div>
           <div className="mt-4 text-center text-xs">
             <p className={`${colors.secondary}`}>SYSTEM STATUS: ONLINE</p>
+<<<<<<< HEAD
             <p>© 2050 JOPHIT SEBASTIAN | ALL SYSTEMS NOMINAL</p>
+=======
+            <p>© 2024 JOPHIT SEBASTIAN | ALL SYSTEMS NOMINAL</p>
+>>>>>>> master
           </div>
         </footer>
       </div>
